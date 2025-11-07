@@ -1,5 +1,5 @@
 <?php
-   require_once("securite.php");  
+require_once("securite.php");  
    
 ?>
 <?php
