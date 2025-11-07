@@ -1,0 +1,27 @@
+{
+  "name": "mean_books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "dev": "concurrently -n \"TS,NODE\" -c \"yellow,cyan\" \"npx tsc --watch\" \"nodemon dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.5",
+    "@types/mongoose": "^5.11.96",
+    "@types/mongoose-paginate": "^5.0.16",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "mongoose-paginate": "^5.0.3"
+  }
+}
